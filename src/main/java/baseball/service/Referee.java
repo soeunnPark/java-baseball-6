@@ -1,8 +1,9 @@
-package baseball.domain;
+package baseball.service;
 
 import java.util.List;
 
 public class Referee {
+
     public String compare(List<Integer> computer, List<Integer> player) {
 
         //몇 개의 숫자가 같은지 알아낸 뒤 -> Judgement의 함수

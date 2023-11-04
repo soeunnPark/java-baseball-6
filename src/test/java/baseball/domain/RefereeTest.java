@@ -1,5 +1,6 @@
 package baseball.domain;
 
+import baseball.service.Referee;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -11,7 +12,8 @@ import java.util.List;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 public class RefereeTest {
-    private Referee referee;
+
+    private baseball.service.Referee referee;
     private static final List<Integer> ANSWER = Arrays.asList(1, 2, 3);
 
     @BeforeEach
